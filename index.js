@@ -9,7 +9,6 @@ const App = () => {
         <View>
             <Header headerText={'Albums'} />
             <AlbumList />
-            <AnimatedMarkers />
         </View>
     );
 };
