@@ -6,7 +6,7 @@ import AlbumList from './src/components/AlbumList';
 import AnimatedMarkers from './src/components/AnimatedMarkers';
 const App = () => {
     return (
-        <View>
+        <View style={{ flex: 1}}>
             <Header headerText={'Albums'} />
             <AlbumList />
         </View>
